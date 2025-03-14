@@ -1,0 +1,551 @@
+#home-carousel
+{
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+#home-carousel .carousel-inner
+{
+	height: 100%;
+}
+
+#home-carousel .carousel-item img
+{
+	width: 100%;
+	height: 100vh;
+	
+	display: block;
+	object-fit: cover;
+}
+
+#home-carousel .carousel-item video
+{
+	width: 100%;
+	height: 100vh;
+
+	display: block;
+	object-fit: cover;
+}
+
+/*------------------------------------------------
+			INNOVATION AT ITS FINEST
+--------------------------------------------------*/
+
+#innovation-section
+{
+	width: 50%;
+	font-family: "Poppins", 'sans-serif';
+	margin-top: 3rem;
+	margin-bottom: 8rem;
+}
+
+#innovation-section .innovation-text
+{
+	text-align: center;
+	font-size: 14px;
+	color: #424949;
+	display: block;
+}
+
+/*------------------------------------------------
+					VIDEOS SECTION
+--------------------------------------------------*/
+#videos-section
+{
+	margin-bottom: 10rem;
+}
+
+#videos-section iframe
+{
+	width: 400px;
+	height: 200px;
+}
+
+/*------------------------------------------------
+					ABOUT FGTP
+--------------------------------------------------*/
+
+#about-fgtp
+{
+	width: 100%;
+
+	margin-bottom: 10rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	background-color: #091A4E;
+	color: #FFFFFF;
+}
+
+.about-desc img
+{
+	width: 80%;
+}
+
+#about-fgtp .about-header
+{
+	margin-bottom: 3rem;
+}
+
+#about-fgtp .about-header h4
+{
+	font-family: 'Poppins', 'sans-serif';
+}
+
+#about-fgtp #vm-column
+{
+	margin-top: 3rem;
+}
+
+#about-fgtp #vm-column p
+{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+#learnmore-btn
+{
+	background-color: transparent;
+	border-color: #626567;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0;
+
+	padding: 10px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	font-family: 'Montserrat', 'sans-serif';
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+#learnmore-btn:hover
+{
+	background-color: #CCD1D1;
+	color: #091A4E;
+	border-color: transparent;
+	font-weight: bold;
+}
+
+/*------------------------------------------------
+					FGTP SERVICES
+--------------------------------------------------*/
+#fgtp-services
+{
+	margin-bottom: 10rem;
+
+	width: 90%;
+}
+
+.fgtpservices-header
+{
+	margin-bottom: 3rem;
+}
+
+.fgtpservices-section a
+{
+	color: #424949;
+}
+
+.fgtpservices-section a:hover
+{
+	text-decoration: none;
+}
+
+.fgtpservices-section h6
+{
+	color: #17202A;
+}
+
+#fgtpservices-commercial
+{
+	padding-top: 20px;
+	transition: transform .2s;
+}
+
+#fgtpservices-commercial:hover
+{
+	border-color: #CCD1D1;
+	border-style: solid;
+	border-width: 1px;
+
+	cursor: pointer;
+
+	transform: scale(1.25);
+}
+
+#fgtpservices-commercial img
+{
+	width: 300px;
+	height: 150px;
+
+	margin-bottom: 20px;
+	object-fit: cover;
+}
+
+#fgtpservices-commercial p
+{
+	font-size: 14px;
+	color: #424949;
+}
+
+#fgtpservices-building
+{
+	padding-top: 20px;
+	transition: transform .2s;
+}
+
+#fgtpservices-building:hover
+{
+	border-color: #CCD1D1;
+	border-style: solid;
+	border-width: 1px;
+
+	cursor: pointer;
+
+	transform: scale(1.25);
+}
+
+#fgtpservices-building img
+{
+	width: 300px;
+	height: 150px;
+
+	margin-bottom: 20px;
+	object-fit: cover;
+}
+
+#fgtpservices-building p
+{
+	font-size: 14px;
+	color: #424949;
+}
+
+#fgtpservices-events
+{
+	padding-top: 20px;
+	transition: transform .2s;
+}
+
+#fgtpservices-events:hover
+{
+	border-color: #CCD1D1;
+	border-style: solid;
+	border-width: 1px;
+
+	cursor: pointer;
+
+	transform: scale(1.25);
+}
+
+#fgtpservices-events img
+{
+	width: 300px;
+	height: 150px;
+
+	margin-bottom: 20px;
+	object-fit: cover;
+}
+
+#fgtpservices-events p
+{
+	font-size: 14px;
+	color: #424949;
+}
+
+/*--------------------------------------------------
+				MEDIA QUERIES
+----------------------------------------------------*/
+@media (width: 2560px)
+{
+	#home-carousel
+	{
+		height: 100vh;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	#home-carousel .carousel-inner
+	{
+		height: 100%;
+	}
+
+	#home-carousel .carousel-item img
+	{
+		width: 100%;
+		height: 100vh;
+		
+		display: block;
+		object-fit: cover;
+	}
+
+	/*-----------------------------------------
+				INNVATION SECTION
+	-------------------------------------------*/
+	.innovation-header h4
+	{
+		font-size: 36px;
+	}
+
+	#innovation-section .innovation-text
+	{
+		text-align: center;
+		font-size: 28px;
+		color: #424949;
+		display: block;
+	}
+
+	/*------------------------------------------
+				VIDEOS SECTION
+	--------------------------------------------*/
+	#videos-section iframe
+	{
+		width: 700px;
+		height: 500px;
+	}
+
+	/*------------------------------------------
+				ABOUT FGTP
+	--------------------------------------------*/
+	#about-fgtp .about-header h4
+	{
+		font-family: 'Poppins', 'sans-serif';
+		font-size: 36px;
+	}
+
+	#about-fgtp #vm-column h6
+	{
+		font-size: 36px;
+	}
+
+	#about-fgtp #vm-column p
+	{
+		color: #424949;
+		font-size: 28px;
+	}
+
+	#learnmore-btn
+	{
+		background-color: transparent;
+		border-color: #626567;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 0;
+
+		padding: 10px;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+
+		font-family: 'Montserrat', 'sans-serif';
+		font-size: 24px;
+		color: #424949;
+	}
+
+	/*------------------------------------------
+				FGTP SERVICES
+	--------------------------------------------*/
+	.fgtpservices-header h4
+	{
+		font-size: 36px;
+	}
+
+	#fgtpservices-commercial img
+	{
+		width: 600px;
+		height: 300px;
+
+		margin-bottom: 20px;
+		object-fit: cover;
+	}
+
+	#fgtpservices-commercial h6
+	{
+		font-size: 28px;
+	}
+
+	#fgtpservices-commercial p
+	{
+		font-size: 28px;
+		color: #424949;
+	}
+
+	#fgtpservices-building img
+	{
+		width: 600px;
+		height: 300px;
+
+		margin-bottom: 20px;
+		object-fit: cover;
+	}
+
+	#fgtpservices-building h6
+	{
+		font-size: 28px;
+	}
+
+	#fgtpservices-building p
+	{
+		font-size: 28px;
+		color: #424949;
+	}
+
+	#fgtpservices-events img
+	{
+		width: 600px;
+		height: 300px;
+
+		margin-bottom: 20px;
+		object-fit: cover;
+	}
+
+	#fgtpservices-events h6
+	{
+		font-size: 28px;
+	}
+
+	#fgtpservices-events p
+	{
+		font-size: 28px;
+		color: #424949;
+	}
+}
+
+@media (max-width: 786px)
+{
+	#home-carousel .carousel-item img
+	{
+		width: 100%;
+		height: 100vh;
+		
+		display: block;
+		object-fit: cover;
+	}
+
+	#innovation-section
+	{
+		width: 70%;
+	}
+
+	#videos-section iframe
+	{
+		width: 200px;
+	}
+
+	#about-fgtp
+	{
+		width: 100%;
+	}
+
+	#fgtpservices-commercial img
+	{
+		width: 225px;
+		height: 150px;
+
+		margin-bottom: 20px;
+		object-fit: cover;
+	}
+
+	#fgtpservices-building img
+	{
+		width: 225px;
+		height: 150px;
+
+		margin-bottom: 20px;
+		object-fit: cover;
+	}
+
+	#fgtpservices-events img
+	{
+		width: 225px;
+		height: 150px;
+
+		margin-bottom: 20px;
+		object-fit: cover;
+	}
+}
+
+@media (width: 425px)
+{
+	/*------------------------------------------------
+					ABOUT FGTP
+	--------------------------------------------------*/
+	.about-desc img
+	{
+		width: 100%;
+	}
+
+	#innovation-section
+	{
+		width: 100%;
+	}
+
+	#innovation-section .innovation-text
+	{
+		display: block;
+		text-align: center;
+	}
+
+	#videos-section iframe
+	{
+		width: 400px;
+		height: 300px;
+	}
+}
+
+@media (width: 375px)
+{
+	/*------------------------------------------------
+					ABOUT FGTP
+	--------------------------------------------------*/
+	.about-desc img
+	{
+		width: 100%;
+	}
+
+	#innovation-section
+	{
+		width: 100%;
+	}
+
+	#innovation-section .innovation-text
+	{
+		display: block;
+		text-align: center;
+	}
+
+	#videos-section iframe
+	{
+		width: 300px;
+		height: 200px;
+	}
+}
+
+@media (width: 320px)
+{
+	/*------------------------------------------------
+					ABOUT FGTP
+	--------------------------------------------------*/
+	.about-desc img
+	{
+		width: 100%;
+	}
+	
+	#innovation-section
+	{
+		width: 100%;
+	}
+
+	#innovation-section .innovation-text
+	{
+		display: block;
+		text-align: center;
+	}
+
+	#videos-section iframe
+	{
+		width: 300px;
+		height: 200px;
+	}
+}

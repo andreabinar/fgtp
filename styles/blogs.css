@@ -1,0 +1,221 @@
+.blogs-header
+{
+	margin-bottom: 5rem;
+
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.blogs-header img
+{
+	width: 100%;
+	height: 100vh;
+
+	display: block;
+	object-fit: cover;
+}
+
+.blogs-body
+{
+	width: 70%;
+}
+
+#blogs-articles
+{
+	margin-bottom: 5rem;
+}
+
+.blogs-date
+{
+	font-size: 14px;
+}
+
+.blogs-text
+{
+	text-align: justify;
+}
+
+/*---------------------------------------------
+				MODAL DESIGNS
+-----------------------------------------------*/
+.modal .modal-content
+{
+	border-radius: 0;
+}
+
+.modal-header button
+{
+	font-size: 28px;
+}
+
+.modal-body .article-header p
+{
+	font-size: 14px;
+}
+
+.modal-body .article-image img
+{
+	width: 80%;
+	height: 300px;
+
+	margin-top: 2rem;
+}
+
+.modal-body .image-description
+{
+	width: 80%;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.article-date
+{
+	font-size: 14px;
+	text-align: center;
+}
+
+.article-text
+{
+	text-align: justify;
+	text-align-last: center;
+}
+
+.article-writer, .article-source
+{
+	margin-top: 3rem;
+}
+
+#close-btn
+{
+	border-color: #E74C3C;
+	color: #E74C3C;
+
+	border-width: 1px;
+}
+
+#close-btn:hover
+{
+	background-color: #E74C3C;
+	color: #FFFFFF;
+}
+
+/*----------------------------------------------
+				MEDIA QUERIES
+------------------------------------------------*/
+@media (width: 2560px)
+{
+	.blogs-header
+	{
+		margin-bottom: 5rem;
+
+		height: 100vh;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.blogs-header img
+	{
+		width: 100%;
+		height: 100vh;
+
+		display: block;
+		object-fit: cover;
+	}
+
+	.blogs-title h4
+	{
+		font-size: 32px;
+	}
+
+	.blogs-date
+	{
+		font-size: 28px;
+	}
+
+	.blogs-text
+	{
+		font-size: 28px;
+	}
+
+	#readmore-btn
+	{
+		font-size: 28px;
+	}
+
+	/*-------------------------------------
+				MODALS
+	---------------------------------------*/
+	.modal .modal-content
+	{
+		width: auto;
+	}
+
+	.modal-body .article-header h4
+	{
+		font-size: 36px;
+	}
+
+	.modal-body .article-header p
+	{
+		font-size: 28px;
+	}
+
+	.modal-body .article-image img
+	{
+		width: 80%;
+		height: 400px;
+		width: 100%;
+
+		margin-top: 2rem;
+	}
+
+	.modal-body .image-description
+	{
+		width: 80%;
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.article-date
+	{
+		font-size: 28px;
+		text-align: center;
+	}
+
+	.article-text
+	{
+		text-align: justify;
+		text-align-last: center;
+
+		font-size: 28px;
+	}
+
+	.article-writer, .article-source
+	{
+		margin-top: 3rem;
+
+		font-size: 28px;
+	}
+
+	#close-btn
+	{
+		border-color: #E74C3C;
+		color: #E74C3C;
+
+		border-width: 1px;
+
+		font-size: 28px;
+	}
+
+}
+
+@media screen and (max-width: 768px)
+{
+	.blogs-body
+	{
+		width: 100%;
+	}
+}

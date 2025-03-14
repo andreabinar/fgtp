@@ -1,0 +1,394 @@
+.contactus-header
+{
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.contactus-header .contactus-img img
+{
+	width: 100%;
+	height: 100vh;
+
+	display: block;
+	object-fit: cover;
+}
+
+.contactus-header .contactus-title
+{
+	margin-top: 5rem;
+	width: 60%;
+
+	font-family: 'Montserrat', 'sans-serif';
+}
+
+.fgtp-map
+{
+	margin: 5rem;
+	align-items: center;
+}
+
+.fgtp-map img
+{
+	width: 600px;
+	height: 450px;
+}
+
+.contactus-info
+{
+	margin: 5rem;
+	text-align: center;
+}
+
+.contactus-phone, .contactus-email, .contactus-address
+{
+	margin-top: 4rem;
+}
+
+/*-------------------------------------------------
+				INQUIRIES SECTION
+---------------------------------------------------*/
+.contactus-inquiries
+{
+	width: 70%;
+}
+
+.inquiries-header
+{
+	margin-bottom: 5rem;
+
+	font-family: 'Montserrat', 'sans-serif';
+}
+
+#contactus-inquiries input, #contactus-inquiries textarea
+{
+	display: block;
+	width: 70%;
+	margin-bottom: 2rem;
+
+	border-radius: 0;
+	border-style: none;
+	border-bottom-style: solid;
+
+	padding: 1rem;
+
+	background-color: transparent;
+}
+
+#submit-btn
+{
+	display: block;
+	width: 70%;
+
+	background-color: transparent;
+	border-color: #626567;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0;
+
+	padding: 10px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	font-family: 'Montserrat', 'sans-serif';
+	font-size: 16px;
+	color: #424949;
+}
+
+#submit-btn:hover
+{
+	background-color: #CCD1D1;
+	border-color: transparent;
+	font-weight: bold;
+}
+
+/*-------------------------------------------------
+				SOCIAL MEDIA SECTION
+---------------------------------------------------*/
+.contactus-socials
+{
+	width: 70%;
+}
+
+.socials-header
+{
+	margin-top: 5rem;
+
+	font-family: 'Montserrat', 'sans-serif';
+}
+
+#socials-icons .fgtp-facebook
+{
+	display: inline-block;
+	padding: 2rem;
+
+	font-size: 36px;
+}
+
+#socials-icons .fgtp-facebook a
+{
+	color: #4267B2;
+}
+
+#socials-icons .fgtp-instagram
+{
+	display: inline-block;
+	padding: 2rem;
+
+	font-size: 36px;
+}
+
+#socials-icons .fgtp-instagram a
+{
+	background: -webkit-linear-gradient(#833AB4, #E1306C, #FCAF45);
+
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#socials-icons .fgtp-youtube
+{
+	display: inline-block;
+	padding: 2rem;
+
+	font-size: 36px;
+}
+
+#socials-icons .fgtp-youtube a
+{
+	color: #FF0000;
+}
+
+/*-------------------------------------------------
+					MEDIA QUERIES
+---------------------------------------------------*/
+@media (width: 2560px)
+{
+	.contactus-header
+	{
+		height: 100vh;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.contactus-header .contactus-img img
+	{
+		width: 100%;
+		height: 100vh;
+
+		display: block;
+		object-fit: cover;
+	}
+
+	.contactus-header .contactus-title
+	{
+		margin-top: 5rem;
+		width: 60%;
+	}
+
+	.contactus-header .contactus-title h1
+	{
+		font-size: 48px;
+	}
+
+	.fgtp-map
+	{
+		width: 60%;
+		float: right;
+	}
+
+	.fgtp-map img
+	{
+		width: 800px;
+		height: 700px;
+	}
+
+	.contactus-info
+	{
+		margin-top: 2rem;
+
+		width: 50%;
+		float: left;
+	}
+
+	.contactus-phone h4, .contactus-email h4, .contactus-address h4
+	{
+		font-size: 36px;
+	}
+
+	.contactus-phone p, .contactus-email p, .contactus-address p
+	{
+		font-size: 28px;
+	}
+
+	/*---------------------------------------
+				INQUIRIES SECTION
+	-----------------------------------------*/
+	.inquiries-header h2
+	{
+		font-size: 48px;
+	}
+
+	#contactus-inquiries input, #contactus-inquiries textarea
+	{
+		font-size: 28px;
+	}
+
+	#submit-btn
+	{
+		font-size: 28px;
+		padding: 1rem;
+	}
+
+	/*---------------------------------------
+					SOCIALS SECTION
+	-----------------------------------------*/
+	.socials-header h2
+	{
+		font-size: 48px;
+	}
+
+	#socials-icons .fgtp-facebook a
+	{
+		color: #4267B2;
+
+		font-size: 64px;
+	}
+
+	#socials-icons .fgtp-instagram a
+	{
+		background: -webkit-linear-gradient(#833AB4, #E1306C, #FCAF45);
+
+		-webkit-background-clip: text;
+	  	-webkit-text-fill-color: transparent;
+
+	  	font-size: 64px;
+	}
+
+	#socials-icons .fgtp-youtube a
+	{
+		color: #FF0000;
+
+		font-size: 64px;
+	}
+}
+
+@media (width: 1024px)
+{
+	.fgtp-map img
+	{
+		width: 500px;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.contactus-header .contactus-title
+	{
+		margin-top: 5rem;
+		width: 100%;
+
+		font-family: 'Montserrat', 'sans-serif';
+	}
+
+	.fgtp-map, .contactus-info
+	{
+		margin-top: 2rem;
+		margin-bottom: 5rem;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.fgtp-map img
+	{
+		width: 400px;
+		height: 600px;
+	}
+
+	.contactus-email p
+	{
+		word-wrap: break-word;
+	}
+}
+
+@media (width: 425px)
+{
+	.fgtp-map img
+	{
+		width: 375px;
+		height: 400px;
+	}
+
+	.fgtp-map
+	{
+		margin-bottom: 0;
+	}
+
+	.contactus-inquiries
+	{
+		width: 100%;
+	}
+
+	.contactus-socials
+	{
+		width: 100%;
+	}
+}
+
+@media (width: 375px)
+{
+	.fgtp-map img
+	{
+		width: 325px;
+		height: 400px;
+	}
+
+	.fgtp-map
+	{
+		margin-bottom: 0;
+	}
+
+	.contactus-inquiries
+	{
+		width: 100%;
+	}
+
+	.contactus-socials
+	{
+		width: 100%;
+	}
+
+	#contactus-inquiries input, #contactus-inquiries textarea
+	{
+		width: 100%;
+	}
+}
+
+@media (width: 320px)
+{
+	.fgtp-map img
+	{
+		width: 275px;
+		height: 400px;
+	}
+
+	.fgtp-map
+	{
+		margin-bottom: 0;
+	}
+
+	.contactus-inquiries
+	{
+		width: 100%;
+	}
+
+	.contactus-socials
+	{
+		width: 100%;
+	}
+
+	#contactus-inquiries input, #contactus-inquiries textarea
+	{
+		width: 100%;
+	}
+}
