@@ -49,7 +49,7 @@
 
 		<ul class = "main-navbar" id = "main-navbar">
 			<li>
-				<a href = "home"> HOME </a>
+				<a href = "index"> HOME </a>
 			</li>
 
 			<li class = "dropdown">
